@@ -1,7 +1,7 @@
 # Project HTML | CSS
 
 ## Mail confirmation of postage
-- HTML and CSS in one file beacuse of outlook needments 
+- HTML and CSS are in one file because of the outlook needs
 - Language: polish
 
 ## Link
