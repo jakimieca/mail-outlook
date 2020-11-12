@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <style>
+        body {
+            width: 385px;
+            max-width: 100%;
+            font-family: 'Lato', sans-serif;
+        }
+        
+        .header {
+            background-color: #C70000;
+            max-height: 100px;
+        }
+        
+        .nav {
+            background-color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        
+        .text {
+            background-color: rgb(231, 231, 231);
+            height: 40px;
+            text-align: center;
+            padding-top: 15px;
+            font-weight: bold;
+        }
+        
+        .tableCell {
+            text-align: left;
+            font-weight: normal;
+            padding: 5px;
+        }
+        
+        .footer {
+            color: rgba(0, 0, 2, 0.767);
+            font-size: 13px;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            body {
+                width: 100%;
+            }
+            table {
+                width: 100%;
+            }
+        }
+    </style>
+
+    <div class="header">
+        <img src="images\0.png" height="100px">
+    </div> <br><br>
+    <div style="text-align: center;  ">
+        <img src="images/My Post.jpg">
+        <p class="nav">Twoja przesyłka własnie została nadana!
+        </p>
+    </div>
+    <p class="text">
+        Odbiorca: </p>
+    <table style="width:100%;">
+
+        <tr>
+            <td colspan="2" scope="row" class="tableCell">Spółka</td>
+            <td id="name" class="tableCell">test</td>
+        </tr>
+        <tr>
+            <td colspan="2" scope="row" class="tableCell">Nazwa</td>
+            <td id="name2" class="tableCell">tst</td>
+        </tr>
+        <tr>
+            <td colspan="2" scope="row" class="tableCell">Adres</td>
+            <td id="address" class="tableCell">Al. Jana Pawła</td>
+        </tr>
+        <tr>
+            <td colspan="2" scope="row" class="tableCell">Kod pocztowy</td>
+            <td id="Postalcode" class="tableCell">01-100 Warszawa</td>
+        </tr>
+
+        <tr>
+            <td colspan="2" scope="row" class="tableCell">Numer telefonu</td>
+            <td id="PhoneNumber" class="tableCell">555948555</td>
+        </tr>
+        <tr>
+            <th colspan="2" scope="row" class="tableCell">Index</th>
+            <td id="PhoneNumber" class="tableCell">A5240</td>
+        </tr>
+
+    </table>
+    <br>
+    <hr>
+    <p style="padding:15px; color: #C70000 ; font-weight: bold; font-size: 13px; text-align: center;">PAMIĘTAJ O ZANIESIENIU PRZESYŁKI NA RECEPCJĘ
+    </p>
+    <hr>
+    <p class="footer">Wiadomość została wygenerowana automatycznie, proszę na nią nie odpowiadać. W razie problemów z funkcjonowaniem systemu nadawania przesyłek proszę o kontakt z administartorem: <a href="mailto:test@test.pl" style="color: rgba(0, 0, 2, 0.767); font-size: 13px;">test@test</a>
+    </p>
+
+
+</body>
+
+</html>
